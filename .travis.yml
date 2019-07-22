@@ -12,6 +12,7 @@ addons:
     - squashfs
     update: true
 sudo: required
+dist: bionic
 matrix:
   include:
   - python: '3.5'
